@@ -71,3 +71,5 @@ Acessar contêiner
 ```sh
 $ docker exec -it {id_container}
 ```
+
+#### Dockerfile
