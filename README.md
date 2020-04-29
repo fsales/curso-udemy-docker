@@ -71,6 +71,10 @@ Acessar contêiner
 ```sh
 $ docker exec -it {id_container}
 ```
+Listar imagens
+```sh
+$docker images
+```  
 
 #### Dockerfile
 Exemplo disponível em test-dockerfile/Dockerfile
@@ -83,4 +87,25 @@ $ docker build -t helloword:0.1.0 ./test-dockerfile
 Histórico alteração
 ```sh
 $docker history helloword:0.1.0 
+```  
+
+#### Docker Registries
+Criar tag antes de enviar imagem para docker hub 
+
+Enviar imagem para o docker hub
+```sh
+$docker tag {id_container} {usuario_docker}/helloword:0.1.0
 ```   
+
+Logar Docker Hub
+
+```sh
+$docker login docker.io
+```
+
+Enviar imagem Docker Hub
+
+```sh
+$docker push {id_container} {usuario_docker}/helloword:0.1.0
+```
+
