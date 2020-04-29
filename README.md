@@ -83,6 +83,9 @@ Criar contêiner
 ```sh
 $ docker build -t helloword:0.1.0 ./test-dockerfile
 ```
+```sh
+$ docker build -t="build1" .
+```
 
 Histórico alteração
 ```sh
