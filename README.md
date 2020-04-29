@@ -75,7 +75,7 @@ $ docker exec -it {id_container}
 #### Dockerfile
 Exemplo disponível em test-dockerfile/Dockerfile
 
-Acessar contêiner
+Criar contêiner
 ```sh
 $ docker build -t helloword:0.1.0 ./test-dockerfile
 ```
