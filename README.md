@@ -116,3 +116,7 @@ Executar servidor
 ```sh
 docker run -d -p 80:80 webserver 
 ```
+
+#### Docker Compose
+Criar o arquivo docker-compose.yml
+
