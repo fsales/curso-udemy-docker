@@ -16,6 +16,7 @@ services:
             - wordpress-network
     wordpress:
         image: wordpress:latest
+        restart: always
         volumes:
             - ./config/php.conf.uploads.int:/usr/local/etc/php/conf.d/uploads.int
             - ./wp-app:/var/www/html
