@@ -112,3 +112,21 @@ Enviar imagem Docker Hub
 $docker push {id_container} {usuario_docker}/helloword:0.1.0
 ```
 
+Executar servidor
+```sh
+docker run -d -p 80:80 webserver 
+```
+
+#### Docker Compose
+Criar o arquivo docker-compose.yml
+
+Iniciar contêiner
+```sh
+docker-compose up -d
+```
+
+Para contêiner
+```sh
+docker-compose down
+```
+
