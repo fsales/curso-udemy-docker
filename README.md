@@ -122,6 +122,11 @@ Criar o arquivo docker-compose.yml
 
 Iniciar contêiner
 ```sh
-docker-compose up
+docker-compose up -d
+```
+
+Para contêiner
+```sh
+docker-compose down
 ```
 
