@@ -112,3 +112,7 @@ Enviar imagem Docker Hub
 $docker push {id_container} {usuario_docker}/helloword:0.1.0
 ```
 
+Executar servidor
+```sh
+docker run -d -p 80:80 webserver 
+```
