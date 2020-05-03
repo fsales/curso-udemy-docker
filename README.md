@@ -130,3 +130,8 @@ Para contêiner
 docker-compose down
 ```
 
+Listar contêiner
+```sh
+docker-compose ps
+```
+
