@@ -109,7 +109,7 @@ $docker login docker.io
 Enviar imagem Docker Hub
 
 ```sh
-$docker push {id_container} {usuario_docker}/helloword:0.1.0
+$docker push {usuario_docker}/helloword:0.1.0
 ```
 
 Executar servidor
